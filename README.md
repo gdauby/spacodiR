@@ -1,0 +1,2 @@
+# spacodiR
+spacodiR R package
