@@ -1,0 +1,155 @@
+[
+    {
+        "file": "D:/MonDossierR/spacodiR/spacodiR/src/Xatools.h",
+        "file_last_write": 1302016838.0,
+        "definitions": [
+            {
+                "usr": "c:@S@resample_stat_type",
+                "kind": 3,
+                "parent_name": "",
+                "name": "resample_stat_type",
+                "file": "D:/MonDossierR/spacodiR/spacodiR/src/Xatools.h",
+                "line": 48,
+                "column": 8
+            }
+        ]
+    },
+    {
+        "file": "D:/MonDossierR/spacodiR/spacodiR/src/cophen.cpp",
+        "file_last_write": 1302016838.0,
+        "definitions": [
+            {
+                "usr": "c:@F@sortedges#&1$@N@std@N@__1@S@vector>#d#$@N@std@N@__1@S@allocator>#d#&S1_#&1$@N@std@N@__1@S@vector>#I#$@N@std@N@__1@S@allocator>#I#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "sortedges(const std::vector<double> &, std::vector<double> &, const std::vector<int> &)",
+                "file": "D:/MonDossierR/spacodiR/spacodiR/src/cophen.cpp",
+                "line": 9,
+                "column": 6
+            },
+            {
+                "usr": "c:@F@gatherdescendants#&1I#S0_#S0_#&I#S0_#S0_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "gatherdescendants(const int &, const int &, const int &, int &, const int &, const int &)",
+                "file": "D:/MonDossierR/spacodiR/spacodiR/src/cophen.cpp",
+                "line": 26,
+                "column": 6
+            },
+            {
+                "usr": "c:@F@descend_vcv#&1I#&1d#S0_#S0_#S0_#S0_#&I#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "descend_vcv(const int &, const double &, const int &, const int &, const int &, const int &, int &)",
+                "file": "D:/MonDossierR/spacodiR/spacodiR/src/cophen.cpp",
+                "line": 62,
+                "column": 6
+            },
+            {
+                "usr": "c:@F@vcv_to_cophenetic#&1I#&I#S1_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "vcv_to_cophenetic(const int &, int &, int &)",
+                "file": "D:/MonDossierR/spacodiR/spacodiR/src/cophen.cpp",
+                "line": 109,
+                "column": 6
+            },
+            {
+                "usr": "c:@F@vcv_internal#&1I#S0_#S0_#S0_#S0_#S0_#&I#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "vcv_internal(const int &, const int &, const int &, const int &, const int &, const int &, int &)",
+                "file": "D:/MonDossierR/spacodiR/spacodiR/src/cophen.cpp",
+                "line": 141,
+                "column": 6
+            }
+        ]
+    },
+    {
+        "file": "D:/MonDossierR/spacodiR/spacodiR/src/spacodi.c",
+        "file_last_write": 1302016838.0,
+        "definitions": [
+            {
+                "usr": "c:@F@spacodi#*I#S0_#*d#S1_#S0_#S0_#S1_#S1_#S1_#S1_#S1_#S1_#S1_#S1_#S1_#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "spacodi(int *, int *, double *, double *, int *, int *, double *, double *, double *, double *, double *, double *, double *, double *, double *)",
+                "file": "D:/MonDossierR/spacodiR/spacodiR/src/spacodi.c",
+                "line": 21,
+                "column": 6
+            },
+            {
+                "usr": "c:@F@dvector#L#L#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "dvector(long, long)",
+                "file": "D:/MonDossierR/spacodiR/spacodiR/src/spacodi.c",
+                "line": 230,
+                "column": 9
+            },
+            {
+                "usr": "c:@F@free_dvector#*d#L#L#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "free_dvector(double *, long, long)",
+                "file": "D:/MonDossierR/spacodiR/spacodiR/src/spacodi.c",
+                "line": 243,
+                "column": 6
+            },
+            {
+                "usr": "c:@F@dmatrix#L#L#L#L#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "dmatrix(long, long, long, long)",
+                "file": "D:/MonDossierR/spacodiR/spacodiR/src/spacodi.c",
+                "line": 251,
+                "column": 10
+            },
+            {
+                "usr": "c:@F@free_dmatrix#**d#L#L#L#L#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "free_dmatrix(double **, long, long, long, long)",
+                "file": "D:/MonDossierR/spacodiR/spacodiR/src/spacodi.c",
+                "line": 281,
+                "column": 6
+            },
+            {
+                "usr": "c:@F@imatrix#L#L#L#L#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "imatrix(long, long, long, long)",
+                "file": "D:/MonDossierR/spacodiR/spacodiR/src/spacodi.c",
+                "line": 289,
+                "column": 7
+            },
+            {
+                "usr": "c:@F@free_imatrix#**I#L#L#L#L#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "free_imatrix(int **, long, long, long, long)",
+                "file": "D:/MonDossierR/spacodiR/spacodiR/src/spacodi.c",
+                "line": 319,
+                "column": 6
+            },
+            {
+                "usr": "c:@F@f3tensor#L#L#L#L#L#L#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "f3tensor(long, long, long, long, long, long)",
+                "file": "D:/MonDossierR/spacodiR/spacodiR/src/spacodi.c",
+                "line": 328,
+                "column": 10
+            },
+            {
+                "usr": "c:@F@free_f3tensor#***f#L#L#L#L#L#L#",
+                "kind": 6,
+                "parent_name": "",
+                "name": "free_f3tensor(float ***, long, long, long, long, long, long)",
+                "file": "D:/MonDossierR/spacodiR/spacodiR/src/spacodi.c",
+                "line": 372,
+                "column": 6
+            }
+        ]
+    }
+]
