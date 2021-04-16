@@ -1,0 +1,24 @@
+{
+    "id": "EEFCFB59",
+    "path": "D:/MonDossierR/spacodiR/spacodiR/R/dataResampling.R",
+    "project_path": "R/dataResampling.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1618577563085.0,
+    "source_on_save": false,
+    "relative_order": 5,
+    "properties": {
+        "cursorPosition": "370,48",
+        "scrollLine": "367"
+    },
+    "folds": "93|15|97|0|\n127|15|132|0|\n167|30|182|2|\n212|17|217|2|\n",
+    "lastKnownWriteTime": 1618587066,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1618587066125,
+    "read_only": false,
+    "read_only_alternatives": []
+}

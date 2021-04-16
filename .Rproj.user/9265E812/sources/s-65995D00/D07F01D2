@@ -1,0 +1,24 @@
+{
+    "id": "D07F01D2",
+    "path": "D:/MonDossierR/spacodiR/spacodiR/R/dataManipulation.R",
+    "project_path": "R/dataManipulation.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1618574951109.0,
+    "source_on_save": false,
+    "relative_order": 4,
+    "properties": {
+        "cursorPosition": "304,10",
+        "scrollLine": "279"
+    },
+    "folds": "11|44|21|0|\n34|47|61|0|\n111|29|239|2|\n134|35|144|4|\n154|45|176|4|\n179|45|188|4|\n306|30|330|2|\n307|31|310|4|\n378|41|413|0|\n",
+    "lastKnownWriteTime": 1618587106,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1618587106192,
+    "read_only": false,
+    "read_only_alternatives": []
+}
