@@ -17,7 +17,7 @@ The package can be installed by the following code
 
 `install.packages("devtools")`
 
-`devtools::install_github("gdauby/spacodiR")`
+`devtools::install_github("gdauby/spacodiR@main")`
 
 # A new function for adding missing species to a phylogeny
 
