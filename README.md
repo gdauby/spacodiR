@@ -6,7 +6,7 @@ Some functions were removed as they were not used or necessary for the
 key function `spacodi.calc` used to compute various metrics of
 phylogenetic/functional community structures.
 
-All functions were written by JE Eastman, Tim CE Paine and OJ Hardy.
+Functions were written by JE Eastman, Tim CE Paine, OJ Hardy, G Dauby.
 
 Computations of various statistics rely on C code also found in an
 executable software that can be found in the following link:
