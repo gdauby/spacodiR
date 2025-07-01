@@ -124,7 +124,7 @@ spacodi.calc <-
                                    phy = phy,
                                    prune = prune,
                                    ...)
-      sp.plot <- sp.data$sp.plot
+      sp.plot <- as.data.frame(sp.data$sp.plot)
       phy <- sp.data$sp.tree
       if (check.distmat(phy))
         distmat <- phy

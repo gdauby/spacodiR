@@ -1,12 +1,12 @@
 Package: spacodiR
 Type: Package
 Title: Spatial and Phylogenetic Analysis of Community Diversity
-Version: 0.11.04012011
+Version: 0.12
 Date: 2011-04-01
-Author: Jonathan Eastman, Timothy Paine, and Olivier Hardy
-Maintainer: Jonathan Eastman <jonathan.eastman@gmail.com>
+Author: Jonathan Eastman, Timothy Paine, Olivier Hardy, Gilles Dauby
+Maintainer: Gilles Dauby <gilles.dauby@ird.fr>
 Depends:
-    R (>= 3.3)
+    R (>= 4.2)
 Imports: ape, Rcpp
 Suggest: picante, colorspace, Rcpp
 Encoding: UTF-8

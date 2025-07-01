@@ -152,14 +152,14 @@ match.spacodi.data <-
     usable.species <- rownames(sp.plot)
     
     # phy only
-    if (missing(sp.traits) & !missing(phy)) {
+    if (is.null(sp.traits) & !is.null(phy)) {
       if (class(phy) == "phylo") {
         usable.species.tmp <- intersect(phy$tip.label, usable.species)
         phy <- reorderspacodiobj(phy, usable.species.tmp)
         usable.species <- usable.species.tmp[match(phy$tip.label, usable.species.tmp)]
         if (prune)
-          sp.plot <- prune.sp(reorderspacodiobj(obj = sp.plot, names = usable.species), verbose =
-                               verbose)
+          sp.plot <- prune.sp(reorderspacodiobj(obj = sp.plot, names = usable.species), 
+                              verbose = verbose)
         else
           sp.plot <- reorderspacodiobj(sp.plot, usable.species)
         r.out <- list(sp.plot = sp.plot, sp.tree = phy)
@@ -177,7 +177,7 @@ match.spacodi.data <-
     }
     
     # sp.traits only
-    if (!missing(sp.traits) & missing(phy)) {
+    if (!is.null(sp.traits) & is.null(phy)) {
       usable.species <- intersect(usable.species, rownames(sp.traits))
       if (prune)
         sp.plot <- prune.sp(reorderspacodiobj(sp.plot, usable.species), verbose =
@@ -189,7 +189,7 @@ match.spacodi.data <-
     }
     
     # both sp.traits and phy
-    if (!missing(sp.traits) & !missing(phy)) {
+    if (!is.null(sp.traits) & !is.null(phy)) {
       if (class(phy) == "phylo") {
         usable.species.tmp <- intersect(phy$tip.label, intersect(rownames(sp.traits), usable.species))
         phy <- reorderspacodiobj(phy, usable.species.tmp)
@@ -227,7 +227,7 @@ match.spacodi.data <-
     }
     
     # neither sp.traits nor phy
-    if (missing(sp.traits) & missing(phy)) {
+    if (is.null(sp.traits) & is.null(phy)) {
       if (prune)
         sp.plot <- prune.sp(reorderspacodiobj(sp.plot, usable.species), verbose =
                              verbose)
